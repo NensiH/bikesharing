@@ -56,7 +56,7 @@ To further these findings, this visualizations shows that the most common user i
 
 
 **Start and End locations for bikeRide?**
-These two visualizations show the top starting and ending locations. The first thing to note is that most rides start in the most populous areas in mid and lower Manhattan. Second, due to shorter ride times, the ending locations are also in those same popular areas.
+These two visualizations show the top starting and ending locations. The first thing to note is that most rides start in the most populous areas in mid and lower Manhattan. Second, due to shorter ride times, the ending locations are also in those same popular areas. From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see which stations are more popular amongst subscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than surrounding areas, yet it is as important for surrounding areas to have bike services, in order to ensure good customer experience.
 
 
 <img width="463" alt="Screen Shot 2022-02-02 at 5 55 47 PM" src="https://user-images.githubusercontent.com/92277581/152257618-5b58a14e-d281-45c3-8770-3c3c25ee6007.png">
