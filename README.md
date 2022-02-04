@@ -3,6 +3,7 @@
 ## Project Overview
 The purpose of the project was to use data from New York City's Citi Bike program and see if it would be possible to recreate the program in De Moines, Iowa. In order to complete this analysis, we have used Python's pandas library to clean up the data and then created visualizations of that data using Tableau. Tableau provides the tool to create powerful analytic dashboards and tell a clear story that can be easily shared with others. Tableau can be simple, requiring little-to-no-coding, or quite complex, requiring some experience to write custom code in so-called calculated field. For this project I am using:
 
+
 - Tableau to create visualizations, dashboard and story.
 - Pandas to convert integers to a datetime datatype.
 
@@ -25,12 +26,15 @@ The purpose of the project was to use data from New York City's Citi Bike progra
 
 **New York Citi Bike data visualizations for August 2019**
 
-<img width="687" alt="Screen Shot 2022-02-02 at 5 40 51 PM" src="https://user-images.githubusercontent.com/92277581/152256241-e4ceb2ef-28aa-45b3-9f5b-ec8b3260565c.png">
+<img width="673" alt="Screen Shot 2022-02-04 at 3 29 43 PM" src="https://user-images.githubusercontent.com/92277581/152605671-f26b6538-dc60-4290-b7f5-8639f4e98f28.png">
 
-How long do users bike for?
-Who is using the bikes?
-Start and end location for biking?
-When are users using the bikes?
+
+To compelete this analysis, we have 4 things to check:
+1. How long do users bike for?
+2. Who is using the bikes?
+3. Start and end location for biking?
+4. When are users using the bikes?
+
 
 
 **How long do users bike for?**
@@ -38,7 +42,7 @@ This visualization shows the length of time of every bike ride during the month 
 
 <img width="518" alt="Screen Shot 2022-02-02 at 5 49 39 PM" src="https://user-images.githubusercontent.com/92277581/152257073-1096b70f-c3c9-4aa7-94d6-10d5f3516a84.png">
 
-- Bikes are mostly checked out for 4 to 6 hours.
+- One way to see this side of the story is that users checkout bike for a single trip and return bike to the station (3 hour) or may rent the bike and keep it until their return trip (8+ hours).
 
 **Who is using the bikes?**
 
@@ -58,10 +62,11 @@ To further these findings, this visualizations shows that the most common user i
 **Start and End locations for bikeRide?**
 These two visualizations show the top starting and ending locations. The first thing to note is that most rides start in the most populous areas in mid and lower Manhattan. Second, due to shorter ride times, the ending locations are also in those same popular areas. From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see which stations are more popular amongst subscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than surrounding areas, yet it is as important for surrounding areas to have bike services, in order to ensure good customer experience.
 
+<img width="775" alt="Screen Shot 2022-02-03 at 10 50 57 AM" src="https://user-images.githubusercontent.com/92277581/152605526-99df96fc-5cfb-4c7b-bf6f-5ceae388815b.png">
+<img width="706" alt="Screen Shot 2022-02-03 at 10 50 27 AM" src="https://user-images.githubusercontent.com/92277581/152605539-293cc376-5044-45bc-8d9d-901424af6b47.png">
 
-<img width="463" alt="Screen Shot 2022-02-02 at 5 55 47 PM" src="https://user-images.githubusercontent.com/92277581/152257618-5b58a14e-d281-45c3-8770-3c3c25ee6007.png">
 
-<img width="636" alt="Screen Shot 2022-02-02 at 5 57 09 PM" src="https://user-images.githubusercontent.com/92277581/152257759-0a259f46-63b0-463e-bb44-085fb71e945a.png">
+
 
 **When are users using the bikes?**
 This visualizations shows that weekday rider traffic peaks at traditional commuting times, while weekends see gradual use throughout the day.
